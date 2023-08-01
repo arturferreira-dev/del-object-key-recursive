@@ -8,7 +8,6 @@ export function cleanObjectByKey(
     if (keysToDeleteFromTheObject.includes(String(prop[0]))) {
       toDelete.push(prop);
     } else if (typeof prop[1] === "object") {
-      console.log(prop);
       prop[1] = cleanObjectByKey(prop[1], keysToDeleteFromTheObject);
       if (Object.keys(prop[1]).length === 0) {
         toDelete.push(prop);
