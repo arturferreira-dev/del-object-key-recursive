@@ -8,7 +8,11 @@
     "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "Artur Ferreira <arturferreira.dev@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arturferreira-dev/del-object-key-recursive"
+  },
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.1",
