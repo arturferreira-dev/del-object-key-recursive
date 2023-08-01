@@ -1,6 +1,6 @@
 {
   "name": "del-object-key-recursive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function to remove an array of keys from an entire object.",
   "main": "index.js",
   "scripts": {
